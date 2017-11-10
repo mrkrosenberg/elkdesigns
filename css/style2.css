@@ -5,7 +5,6 @@ body {
 
 h1, h2 {
   text-transform: uppercase;
-  border-bottom: 4px solid #000;
   display: inline-block;
   font-weight: 800;
 }
@@ -13,6 +12,7 @@ h1, h2 {
 
 h1 {
   font-size: 32px;
+  border-bottom: 4px solid #000;
 }
 
 h2 {
@@ -53,6 +53,14 @@ section {
 }
 .services {
   float: right;
+}
+
+#about {
+  border-bottom: #fffebb;
+}
+
+#services {
+  border-bottom: #fffebb;
 }
 
 ul {
